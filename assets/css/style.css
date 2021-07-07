@@ -7,23 +7,31 @@ body {
 }
 
 header{
+    border-radius: 30px;
     padding: 40px;
     text-align: center;
-    background-color: white;
+    background-color: beige;
+}
+
+li, p {
+    justify-content:center;
+    font-size: larger;
+    display: flex;
+    background-color: cornsilk;
+    border-radius: 20%;
 }
 
 h4 {
+    background-color: cadetblue;
+    border-radius: 30px;
+    font-size: x-large;
     display: flex;
     justify-content: center;
 }
-p {
-    display: flex;
-    justify-content:center;
 
-}
 
-nav a  { /* box-shadow: 0px 9px 0px 0px #83DCF2; */
-    background-color:transparent;
+nav a  { 
+    background-color: beige;
     display:inline-block;
     cursor:pointer;
     color:#0a090a;
@@ -34,13 +42,13 @@ nav a  { /* box-shadow: 0px 9px 0px 0px #83DCF2; */
   }
 nav a:hover {
     background-color:transparent;
-    box-shadow: 0px 9px 0px 0px turquoise;
+    box-shadow: 0px 9px 0px 0px beige;
   }
 nav a:active {
     position:relative;
     top:1px;
   }
-.yesica {
+.yesica, .refactor-hw {
     width: 50%;
     height: 50%;
     display: block;
@@ -48,10 +56,11 @@ nav a:active {
     margin-right: auto;
 }
 .mainnav {
-    border-radius: 50px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
     cursor: pointer;
-    background-color: turquoise;
+    background-color: beige;
 }
+
 
